@@ -4,9 +4,16 @@ body{
   }
   .container{
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
     row-gap: 100px;
     column-gap: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+  }
+  .container img{
+    width: auto;
+    height: 300px;
   }
   .card-title{
     text-align: center;
